@@ -1,0 +1,83 @@
+/*Tablas*/
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+th,
+td {
+    padding: 10px 20px;
+    border: 1px solid #000;
+}
+
+/*Titulos*/
+h1 {
+    text-align: center;
+    background-color: rgb(191, 131, 248);
+
+
+}
+
+h1:hover {
+
+    color: gold;
+}
+
+/*Parrafos*/
+.DOMparrafo {
+    text-align: center;
+    padding: 0% 10%;
+}
+
+/*Parrafo  generalmente se muestra en negrita*/
+strong {
+    position: relative;
+    margin-top: 2%;
+}
+
+/*Espacio */
+.espacioTabla {
+    position: relative;
+    margin-top: 5%;
+}
+
+.espacioformulario {
+    position: relative;
+    margin-top: 10%;
+}
+
+/*formulario*/
+form input {
+    position: relative;
+    padding: 10px;
+    height: 20px;
+    width: 200px;
+
+}
+
+/*BOTONES ANIMADOS*/
+.button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #ccc;
+    transition: background-color 2s;
+    animation: color-change 2s infinite;
+}
+
+@keyframes color-change {
+    0% {
+        background-color: rgb(240, 126, 212);
+    }
+
+    33% {
+        background-color: rgb(167, 251, 167);
+    }
+
+    66% {
+        background-color: rgb(191, 89, 188);
+    }
+
+    100% {
+        background-color: rgb(131, 25, 115);
+    }
+}
